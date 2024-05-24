@@ -18,6 +18,7 @@ function CommentsList() {
                 comments.splice(comments.indexOf(comment), 1);
             }
         })
+        setComments([...comments]);
     }
 
     return ( 
